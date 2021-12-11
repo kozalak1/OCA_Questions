@@ -17,7 +17,7 @@ public class Q_1 {
 
 	}
 
-	// What's the result?
+		// What's the result?
 	
 }
  

@@ -3,8 +3,7 @@ package OCA_Questions;
 public class Q_2 {
 
 	public static void main(String[] args) {
-		
-		// What's the result?
+			
 		
 		String strs []= {"A", "B"};
 		
@@ -22,5 +21,5 @@ public class Q_2 {
 		}
 		
 	}
-
+				// What's the result?
 }
