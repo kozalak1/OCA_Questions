@@ -19,13 +19,13 @@ public class Test {
 	}
 	
 		
-	public static void main(String[] args) {
+	public static void main(String[] args) { 	// 1. ilk olarak main çalıştı
 		
-		int x =3, y=5;
+		int x =3, y=5;							// 2. x ve y'ye değer ataması yapıldı
 		
-		Test obj = new Test(x,y);
+		Test obj = new Test(x,y);				// 3. obj oluşturuldu - parametreleri x ve y
 		
-		System.out.println(x + " " + y);
+		System.out.println(x + " " + y);		// 4. x ve y nin değerleri yazdırıldı
 		
 	}
 			

@@ -22,4 +22,4 @@ public class Q_2 {
 		
 	}
 				// What's the result?
-}
+}				// AB
