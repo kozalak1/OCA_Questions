@@ -16,12 +16,12 @@ public class Fibonacci {
         System.out.print("fibonacci dizisinin eleman sayisini giriniz : ");
         int each = scan.nextInt();
 
-        List<Integer> fibo = new ArrayList<>();
-        fibo.add(1);
-        fibo.add(1);
+        List<Integer> fibo = new ArrayList<>(); // kullanıcının kac eleman gireceğini bilmediğimiz için list kullanıyoruz
+        fibo.add(1);							
+        fibo.add(1);							// ilk 2 sayı olan 1'i dogrudan list e ekliyoruz
 
-        for (int i = 0; i < each - 2; i++) {
-            fibo.add(fibo.get(i) + fibo.get(i + 1));
+        for (int i = 0; i < each - 2; i++) {	// Son sayıyı önceki 2 sayının toplamı ile bulacağımız için for un kapsamı dışında tuttuk
+            fibo.add(fibo.get(i) + fibo.get(i + 1)); 	// 1. ve 2. sayıları sırayla topluyoruz
         }
 
         System.out.println(fibo);
