@@ -14,8 +14,8 @@ public class PairNumber {
 	
 	 int givenNumber = 10;
 
- findPairs(new int[]{4, 6, 5, -10, 8, 5, 20}, givenNumber);
- }
+	 findPairs(new int[]{4, 6, 5, -10, 8, 5, 20}, givenNumber);
+ 	}
 
  	private static void findPairs(int[] arr, int num) {
 
