@@ -5,8 +5,7 @@ public class SwitchCase {
 	public static void main(String[] args) {
 		
 		char colorCode='y';
-		
-		
+				
 		switch (colorCode) {
 		
 		case 'r':
@@ -23,7 +22,7 @@ public class SwitchCase {
 						
 		}
 			
-		System.out.println(color);
+		System.out.println(color); // bu satırda compilation hatası verdi, çünkü color variable olarak tanımlanmadı 
 	}
 		// What's the result?
 }

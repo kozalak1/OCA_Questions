@@ -10,9 +10,9 @@ public class Q_2 {
 		int idx=0;
 		
 		for (String s : strs) {
-			strs[idx].concat("element"+idx);
+			strs[idx].concat("element"+idx); // Aelement0Belement1
 			
-			idx++;
+			idx++; // 2
 		}
 
 		for (idx = 0; idx < strs.length; idx++) {
