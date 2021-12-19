@@ -13,11 +13,9 @@ public class Q_1 {
 		
 		System.out.println(date);
 		
-		
-
 	}
-
+	
 		// What's the result?
 	
-}
+	}
  

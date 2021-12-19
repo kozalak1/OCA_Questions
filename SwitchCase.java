@@ -1,7 +1,9 @@
 package OCA_Questions;
 
 public class SwitchCase {
-
+	// static int color; 
+	// kod bu şekilde yazılsaydı hata vermiyecekti 
+	
 	public static void main(String[] args) {
 		
 		char colorCode='y';
@@ -22,7 +24,7 @@ public class SwitchCase {
 						
 		}
 			
-		System.out.println(color); // bu satırda compilation hatası verdi, çünkü color variable olarak tanımlanmadı 
+		System.out.println(color); // bu satırda compilation hatası verdi, çünkü "color" variable olarak tanımlanmadı 
 	}
 		// What's the result?
 }
